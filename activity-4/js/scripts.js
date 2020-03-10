@@ -14,5 +14,5 @@ var price = 20,
     studentPriceEl = document.getElementById('student-price');
 
 priceEl.textContent = price.toFixed(2);
-studentPrice.textContent = studentPrice.toFixed(2);
+studentPriceEl.textContent = studentPrice.toFixed(2);
 
