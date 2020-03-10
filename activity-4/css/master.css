@@ -1,0 +1,55 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #808285;
+}
+
+h1 {
+    color: #808285;
+    background-color: #bcbec0;
+    text-align: center;
+}
+
+h2 {
+    
+    text-align: center;
+}
+
+img {
+    margin-top: 50px;
+    height: 300px;
+    text-align: left;
+}
+figure {
+    text-align: center;
+}
+figcaption span {
+    font-size: .85em;
+}
+
+#description {
+    background-color: #d4d6da;
+    margin: 85px 120px  ;
+    text-align: center;
+}
+
+.userReview {
+    text-align: left;
+    padding: 30px 150px ;
+    background-color: #d4d6da;
+}
+
+main {
+    background-color: #d4d6da;
+}
+
+.h2uwu {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    
+}
+footer {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
