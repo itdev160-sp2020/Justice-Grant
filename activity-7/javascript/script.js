@@ -27,7 +27,7 @@ function addTaskElement (task) {
 function addTask (event) {
     var inputEl = document.getElementById('input-task')
     if (inputEl.value != '') {
-        var id = 'item-' + task.length;
+        var id = 'item-' + tasks.length;
         
         var task = new Task(id, inputEl.value, taskStatus.active);
         tasks.push(task);

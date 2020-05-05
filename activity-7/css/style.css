@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: auto 30px;
-    color: aquamarine;
+    color: rgb(21, 255, 177);
 }
 
 ul {
@@ -12,7 +12,7 @@ li {
     padding: 5px;
 }
 
-#toDO-list-container {
+#todo-list-container {
     margin-top: 20px;
 }
 
