@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <title>J. VLOG</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Justice Blog</h1>
+        <div class="header-menu">
+            <button id="new-button">New</button>
+        </div>
+    </header>
+    <main>
+        <section id="display-content"></section>
+    </main>
+    <footer>
+        Love from J.
+    </footer>
+
+    <div class="modal" id="modal-dialog">
+        <section>
+            <h2>Title</h2>
+            <input type="text" id="edit-title-text">
+            <span id="edit-title-message"></span>
+        </section>
+        <section>
+            <h2>Content</h2>
+            <textarea id="edit-content-text" cols="8" rows="80"></textarea>
+            <span id="edit-content-message"></span>
+        </section>
+        <footer>
+            <button type="button" id="cancel-button">Cancel</button>
+            <button type="button" id="save-button">Save</button>
+        </footer>
+    </div>
+    <div id="modal-backdrop"></div>
+    <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>
